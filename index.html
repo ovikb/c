@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ovik certificate showcase</title>
+
+
+    <link rel="icon" href="https://ovikbiswas.wordpress.com/wp-content/uploads/2025/02/ctgdt6te878c738043t0.webp_image.png" type="image/png">
+
+</head>
+<body>
+    <h1>Welcome to my certificate showcase</h1>
+
+    <section>
+        <div id="imgcontainer"><img src="https://ovikbiswas.wordpress.com/wp-content/uploads/2024/09/web-sololearn.png"></div>
+        <div id="imgcontainer"><img src="https://ovikbiswas.wordpress.com/wp-content/uploads/2024/09/tech-for-everyone-sololearn.png"></div>
+        <div id="imgcontainer"><img src="https://ovikbiswas.wordpress.com/wp-content/uploads/2024/09/programming_hero_certificate_web_fundamental.png"></div>
+        <div id="imgcontainer"><img src="https://ovikbiswas.wordpress.com/wp-content/uploads/2024/09/js-sololearn.png"></div>
+        <div id="imgcontainer"><img src="https://ovikbiswas.wordpress.com/wp-content/uploads/2024/09/introduction-to-c_certificate.jpg"></div>
+        <div id="imgcontainer"><img src="https://ovikbiswas.wordpress.com/wp-content/uploads/2024/09/html-sololearn.png"></div>
+        <div id="imgcontainer"><img src="https://ovikbiswas.wordpress.com/wp-content/uploads/2024/09/css-sololearn.png"></div>
+        <div id="imgcontainer"><img src="https://ovikbiswas.wordpress.com/wp-content/uploads/2025/02/7746997f-011e-44df-9f70-34d912091bcb.jpg"></div>
+    </section>
+    <section>
+        <div id="imgcontainer"><img src="https://ovikbiswas.wordpress.com/wp-content/uploads/2025/01/mimo-html.jpg"></div>
+        <div id="imgcontainer"><img src="https://ovikbiswas.wordpress.com/wp-content/uploads/2024/09/screenshot_20230805-214145_grasshopper.jpg"></div>
+        <div id="imgcontainer"><img src="https://ovikbiswas.wordpress.com/wp-content/uploads/2025/01/mimo-css.jpg"></div>
+        <div id="imgcontainer"><img src="https://ovikbiswas.wordpress.com/wp-content/uploads/2025/01/mimo-js.jpg"></div>
+    </section>
+    
+
+</body>
+</html>
+
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root {
+    --mar: 30px;
+}
+section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr;
+    gap: 15px;
+}
+@media only screen and (min-width: 500px) {
+    section {
+        display: flex;
+        flex-direction: column;
+        margin: var(--mar);
+    }
+}
+section:nth-child(2) {
+    margin-bottom: 15px;
+}
+
+img {
+    width: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+    &:hover {
+        transform: scale(1.15);
+    }
+}
+#imgcontainer {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border: 2px #000 solid;
+    border-radius: 5px;
+}
+h1 {
+    margin: var(--mar);
+    font-family: "Kanit", serif;
+}
+</style>
